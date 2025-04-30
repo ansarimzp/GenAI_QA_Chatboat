@@ -84,19 +84,13 @@ GenAI_QA_System/
 │   └── qa_dataset.json             # Custom Q&A training data
 │
 ├── model/
-│   ├── fine_tuned/                 # BERT fine-tuned weights
-│   ├── fine_tuned_quantized/      # Quantized model
-│   └── faiss_index/               # Vector index
-│
-├── src/
 │   ├── fine_tune.py               # Fine-tune BERT script
-│   ├── create_faiss_index.py      # Build FAISS vector store
-│   ├── run_inference.py           # Main RAG-based inference
-│   └── optimized_inference.py     # Faster inference with quantized model
+|   ├── run_inference.py           # Main RAG-based inference
 │
 ├── app/
 │   └── main.py                    # FastAPI entrypoint
-│
+└── optimized_inference.py         # Faster inference with quantized model
+|── create_faiss_index.py          # Build FAISS vector store
 ├── requirements.txt               # All dependencies
 └── README.md                      # You’re reading it!
 ```
