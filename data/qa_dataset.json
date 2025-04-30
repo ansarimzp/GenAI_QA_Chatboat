@@ -1,0 +1,23 @@
+
+[
+    {
+        "context": "Hugging Face provides pre-trained models and APIs for NLP tasks. It is a platform that enables developers to share and use machine learning models.",
+        "question": "What does Hugging Face provide?",
+        "answer": "Pre-trained models and APIs for NLP tasks."
+    },
+    {
+        "context": "LangChain is an open-source library for chaining LLMs together. It allows developers to create applications that combine multiple language models.",
+        "question": "What is LangChain used for?",
+        "answer": "Chaining LLMs for advanced AI applications."
+    },
+    {
+        "context": "Retrieval-Augmented Generation (RAG) combines retrieval systems with generative models. It helps LLMs access external knowledge to improve response accuracy.",
+        "question": "What is RAG?",
+        "answer": "A method that combines retrieval systems with generative models."
+    },
+    {
+        "context": "FastAPI is a modern, fast web framework for building APIs with Python. It provides automatic validation, serialization, and documentation.",
+        "question": "What is FastAPI?",
+        "answer": "A modern, fast web framework for building APIs with Python."
+    }
+]
