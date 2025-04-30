@@ -1,0 +1,13 @@
+torch
+transformers
+datasets
+fastapi
+uvicorn
+faiss-cpu
+langchain==0.0.267
+sentence-transformers
+streamlit
+requests
+pytorch-lightning
+wandb
+tensorboard
