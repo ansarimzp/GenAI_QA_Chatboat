@@ -51,13 +51,15 @@ Ensured it supports scalable batch processing
 This wasn’t just plug-and-play — I actually engineered each layer:
 
 
-Component	What I Did
-Fine-tuning	Curated dataset, encoded QA pairs, trained and saved BERT-based QA model
-Semantic Search	Used LangChain + FAISS to create and load a fast vector database
-Backend Inference Logic	Wrote custom logic to connect search → context → BERT answer
-Optimization	Quantized model for lower latency and smaller memory footprint
-API Integration	Built FastAPI app with endpoints for QA + optional Streamlit interface
-Documentation & ReadMe	Structured the project, wrote clear instructions, and explained architecture
+| Component                     | What I Did                                                                 |
+|------------------------------|-----------------------------------------------------------------------------|
+| **Fine-tuning**              | Curated dataset, encoded QA pairs, trained and saved BERT-based QA model   |
+| **Semantic Search**          | Used LangChain + FAISS to create and load a fast vector database           |
+| **Backend Inference Logic**  | Wrote custom logic to connect search → context → BERT answer               |
+| **Optimization**             | Quantized model for lower latency and smaller memory footprint             |
+| **API Integration**          | Built FastAPI app with endpoints for QA + optional Streamlit interface     |
+| **Documentation & ReadMe**   | Structured the project, wrote clear instructions, and explained architecture |
+
 ## 🧠 In Simple Terms:
 "You ask a question → the system finds relevant documents → the AI model reads them → it gives you a precise answer — just like a smart assistant who knows where to look."
 ---
