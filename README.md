@@ -87,8 +87,8 @@ GenAI_QA_System/
 │   ├── fine_tune.py               # Fine-tune BERT script
 |   ├── run_inference.py           # Main RAG-based inference
 │
-├── app/
-│   └── main.py                    # FastAPI entrypoint
+├── api/
+│   └── app.py                    # FastAPI entrypoint
 └── optimized_inference.py         # Faster inference with quantized model
 |── create_faiss_index.py          # Build FAISS vector store
 ├── requirements.txt               # All dependencies
